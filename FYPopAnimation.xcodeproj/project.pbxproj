@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84D0DA061ADF9C5200202118 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D0DA041ADF9C5200202118 /* SecondViewController.m */; };
+		84D0DA071ADF9C5200202118 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D0DA051ADF9C5200202118 /* SecondViewController.xib */; };
 		84FA1C661ADCB20D003E89C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FA1C651ADCB20D003E89C9 /* main.m */; };
 		84FA1C691ADCB20D003E89C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FA1C681ADCB20D003E89C9 /* AppDelegate.m */; };
 		84FA1C6C1ADCB20D003E89C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FA1C6B1ADCB20D003E89C9 /* ViewController.m */; };
-		84FA1C6F1ADCB20D003E89C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FA1C6D1ADCB20D003E89C9 /* Main.storyboard */; };
 		84FA1C711ADCB20D003E89C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FA1C701ADCB20D003E89C9 /* Images.xcassets */; };
-		84FA1C741ADCB20D003E89C9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FA1C721ADCB20D003E89C9 /* LaunchScreen.xib */; };
 		84FA1C801ADCB20E003E89C9 /* FYPopAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FA1C7F1ADCB20E003E89C9 /* FYPopAnimationTests.m */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +27,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84D0DA031ADF9C5200202118 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		84D0DA041ADF9C5200202118 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		84D0DA051ADF9C5200202118 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 		84FA1C601ADCB20D003E89C9 /* FYPopAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYPopAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FA1C641ADCB20D003E89C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84FA1C651ADCB20D003E89C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -34,9 +37,7 @@
 		84FA1C681ADCB20D003E89C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		84FA1C6A1ADCB20D003E89C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		84FA1C6B1ADCB20D003E89C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		84FA1C6E1ADCB20D003E89C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84FA1C701ADCB20D003E89C9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		84FA1C731ADCB20D003E89C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		84FA1C791ADCB20E003E89C9 /* FYPopAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYPopAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FA1C7E1ADCB20E003E89C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84FA1C7F1ADCB20E003E89C9 /* FYPopAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYPopAnimationTests.m; sourceTree = "<group>"; };
@@ -85,10 +86,11 @@
 				84FA1C681ADCB20D003E89C9 /* AppDelegate.m */,
 				84FA1C6A1ADCB20D003E89C9 /* ViewController.h */,
 				84FA1C6B1ADCB20D003E89C9 /* ViewController.m */,
-				84FA1C6D1ADCB20D003E89C9 /* Main.storyboard */,
 				84FA1C701ADCB20D003E89C9 /* Images.xcassets */,
-				84FA1C721ADCB20D003E89C9 /* LaunchScreen.xib */,
 				84FA1C631ADCB20D003E89C9 /* Supporting Files */,
+				84D0DA031ADF9C5200202118 /* SecondViewController.h */,
+				84D0DA041ADF9C5200202118 /* SecondViewController.m */,
+				84D0DA051ADF9C5200202118 /* SecondViewController.xib */,
 			);
 			path = FYPopAnimation;
 			sourceTree = "<group>";
@@ -199,8 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84FA1C6F1ADCB20D003E89C9 /* Main.storyboard in Resources */,
-				84FA1C741ADCB20D003E89C9 /* LaunchScreen.xib in Resources */,
+				84D0DA071ADF9C5200202118 /* SecondViewController.xib in Resources */,
 				84FA1C711ADCB20D003E89C9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D0DA061ADF9C5200202118 /* SecondViewController.m in Sources */,
 				84FA1C6C1ADCB20D003E89C9 /* ViewController.m in Sources */,
 				84FA1C691ADCB20D003E89C9 /* AppDelegate.m in Sources */,
 				84FA1C661ADCB20D003E89C9 /* main.m in Sources */,
@@ -242,25 +244,6 @@
 			targetProxy = 84FA1C7A1ADCB20E003E89C9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		84FA1C6D1ADCB20D003E89C9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84FA1C6E1ADCB20D003E89C9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		84FA1C721ADCB20D003E89C9 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84FA1C731ADCB20D003E89C9 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		84FA1C811ADCB20E003E89C9 /* Debug */ = {
@@ -412,6 +395,7 @@
 				84FA1C851ADCB20E003E89C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84FA1C861ADCB20E003E89C9 /* Build configuration list for PBXNativeTarget "FYPopAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +404,7 @@
 				84FA1C881ADCB20E003E89C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
