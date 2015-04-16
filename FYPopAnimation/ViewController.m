@@ -27,8 +27,8 @@
         Ivar *var = class_copyIvarList([UIGestureRecognizer class], &count);
         for (int i = 0; i < count; i ++) {
             Ivar _var = *(var + i);
-//            NSLog(@"%s",ivar_getTypeEncoding(_var));
-//            NSLog(@"%s",ivar_getName(_var));
+            NSLog(@"%s",ivar_getTypeEncoding(_var));
+            NSLog(@"%s",ivar_getName(_var));
         }
         
         UIGestureRecognizer *gesture = self.navigationController.interactivePopGestureRecognizer;
